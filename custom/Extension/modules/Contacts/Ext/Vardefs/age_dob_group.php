@@ -10,7 +10,7 @@ $dictionary['Contact']['fields']['dob_c'] = array(
     'options' => 'date_range_search_dom',
 );
 
-$dictionary['Contact']['fields']['age'] = array(
+$dictionary['Contact']['fields']['age_c'] = array(
     'name' => 'age_c',
     'vname' => 'LBL_AGE',
     'type' => 'int',
@@ -18,12 +18,14 @@ $dictionary['Contact']['fields']['age'] = array(
     'required' => true,
     'audited' => true,
 );
-$dictionary['Contact']['fields']['age_group'] = array(
+$dictionary['Contact']['fields']['age_group_c'] = array(
     'name' => 'age_group_c',
     'vname' => 'LBL_AGE_GROUP',
-    'type' => 'varchar',        
+    'type' => 'enum',  
+    'dbType' => 'varchar',         
     'len' => 255,
     'options' => 'age_group_list', 
+    'required' => true,
     'audited' => true,
 );
 ?>
