@@ -122,7 +122,7 @@ array (
         array (
           0 => 
           array (
-            'name' => 'dob',
+            'name' => 'dob_c',
             'label' => 'LBL_DOB',
              'displayParams' => array(
         'showFormats' => true,   // REQUIRED for calendar popup
