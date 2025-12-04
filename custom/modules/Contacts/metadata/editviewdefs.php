@@ -121,10 +121,7 @@ array (
         5 => 
         array (
           0 => '',
-           array(
-                array('name' => 'dob_c', 'label' => 'LBL_DOB'),
-                '',
-            ),
+          
           1 => '',
         ),
         6 => 
