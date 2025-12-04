@@ -1,5 +1,5 @@
 <?php 
-$dictionary['Contact']['fields']['dob'] = array(
+$dictionary['Contact']['fields']['dob_c'] = array(
     'name' => 'dob_c',
     'vname' => 'LBL_DOB',
     'type' => 'date',
