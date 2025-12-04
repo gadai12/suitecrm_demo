@@ -1,8 +1,11 @@
 <?php
-$viewdefs['Contacts']['EditView']['panels']['LBL_CONTACT_INFORMATION'][] = array(
+$viewdefs['Contacts']['EditView']['panels']['default'][] = array(
     array(
-        'name' => 'dob_c',
+        'name' => 'dob',
         'label' => 'LBL_DOB',
+        'displayParams' => array(
+            'showFormats' => true,
+        ),
     ),
     '',
 );
