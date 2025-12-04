@@ -120,14 +120,11 @@ array (
         ),
         5 => 
         array (
-          0 => 
-          array (
-            'name' => 'dob_c',
-            'label' => 'LBL_DOB',
-             'displayParams' => array(
-        'showFormats' => true,   // REQUIRED for calendar popup
-    ),
-          ),
+          0 => '',
+           array(
+                array('name' => 'dob_c', 'label' => 'LBL_DOB'),
+                '',
+            ),
           1 => '',
         ),
         6 => 
