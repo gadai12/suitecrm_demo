@@ -124,6 +124,9 @@ array (
           array (
             'name' => 'dob',
             'label' => 'LBL_DOB',
+             'displayParams' => array(
+        'showFormats' => true,   // REQUIRED for calendar popup
+    ),
           ),
           1 => '',
         ),
